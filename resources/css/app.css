@@ -1,0 +1,92 @@
+@import '../../vendor/filament/forms/dist/module.esm.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.table-border-none .filament-tables-container{
+    border: none;
+}
+
+.filament-forms-card-component{
+    border-radius: 8px;
+}
+
+#myProgress {  width: 100%;  background-color: grey;}
+#myBar {  width: 1%;  height: 30px;  background-color: green;}
+
+.filament-tables-header-heading {
+    @apply text-gray-700 font-semibold
+}
+
+.filament-tables-container{
+    @apply shadow-none rounded-md;
+}
+
+.table-border-none .filament-tables-container{
+    border: none;
+}
+
+.table-border-none .filament-tables-container{
+    border: none;
+}
+
+.filament-forms-component-container {
+    @apply gap-3;
+}
+
+.filament-tables-search-input > div > input {
+    @apply border-gray-300 rounded-md
+}
+
+.filament-forms-field-wrapper-label > span {
+    @apply text-xs;
+}
+.filament-forms-text-input-component > div > input,
+.filament-forms-tags-input-component > div,
+.filament-forms-select-component > div > select,
+.filament-forms-date-time-picker-component > button,
+.filament-forms-select-component > div > div > div > div {
+    @apply rounded-sm;
+}
+
+.filament-tables-text-column {
+    @apply text-sm;
+}
+
+/*Filter Reorder Button*/
+.filament-tables-header-container > div > div > button {
+    @apply text-white w-20 pr-1 ml-2 bg-indigo-700 hover:bg-indigo-800 focus:bg-indigo-900 h-7 py-0.5 rounded whitespace-nowrap;
+    /*@apply  w-20 rounded border border-transparent bg-indigo-100 h-7 py-0.5 text-xs font-medium text-indigo-700 hover:bg-indigo-200 focus:outline-none;*/
+}
+
+.filament-tables-header-container > div > div > button:after {
+    @apply text-white text-xs font-semibold whitespace-nowrap;
+    /*@apply text-indigo-700 text-xs font-semibold whitespace-nowrap;*/
+    content: "Reorder";
+}
+
+/*Bulk Action Button*/
+.filament-tables-bulk-actions > div > button {
+    @apply w-24 bg-indigo-700 hover:bg-indigo-800 focus:bg-indigo-900 px-2 h-7 rounded whitespace-nowrap;
+}
+
+.filament-tables-bulk-actions-trigger:after {
+    @apply text-white text-xs font-semibold whitespace-nowrap;
+    content: "Bulk Actions";
+}
+
+.filament-tables-bulk-actions > div > button > svg {
+    display: none;
+}
+
+/*Filter Indicators Reset Button*/
+.filament-tables-filter-indicators > div > button:after {
+    @apply text-red-500 text-xs font-semibold;
+    content: "Reset Filters";
+}
+
+.filament-tables-filter-indicators > div > button > div {
+   display: none;
+}
+

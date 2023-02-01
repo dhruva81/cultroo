@@ -1,0 +1,501 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Method App\\\\Console\\\\Commands\\\\RegisterSuperAdminCommand\\:\\:handle\\(\\) should return int but returns true\\.$#"
+			count: 1
+			path: app/Console/Commands/RegisterSuperAdminCommand.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\User\\:\\:\\$pin\\.$#"
+			count: 1
+			path: app/Http/Controllers/Api/AuthController.php
+
+		-
+			message: "#^Access to an undefined property Razorpay\\\\Api\\\\Api\\:\\:\\$subscription\\.$#"
+			count: 1
+			path: app/Http/Controllers/Api/SubscriptionController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\User\\:\\:\\$active_profile_id\\.$#"
+			count: 1
+			path: app/Http/Controllers/Api/VideoController.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\GenreResource\\:\\:\\$description\\.$#"
+			count: 1
+			path: app/Http/Resources/GenreResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\GenreResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/GenreResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\GenreResource\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Http/Resources/GenreResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\GenreResource\\:\\:\\$series\\.$#"
+			count: 1
+			path: app/Http/Resources/GenreResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\GenreResource\\:\\:getFirstMediaUrl\\(\\)\\.$#"
+			count: 2
+			path: app/Http/Resources/GenreResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\LanguageResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/LanguageResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\LanguageResource\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Http/Resources/LanguageResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$is_featured\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$meta\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$pg_billing_amount\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$pg_billing_interval\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$pg_billing_period\\.$#"
+			count: 2
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\PlanResource\\:\\:\\$pg_plan_id\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\PlanResource\\:\\:getFirstMediaUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\PlanResource\\:\\:getPlanFeatures\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/PlanResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\ProfileResource\\:\\:\\$genres\\.$#"
+			count: 1
+			path: app/Http/Resources/ProfileResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\ProfileResource\\:\\:\\$id\\.$#"
+			count: 2
+			path: app/Http/Resources/ProfileResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\ProfileResource\\:\\:\\$languages\\.$#"
+			count: 1
+			path: app/Http/Resources/ProfileResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\ProfileResource\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Http/Resources/ProfileResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\ProfileResource\\:\\:\\$user\\.$#"
+			count: 1
+			path: app/Http/Resources/ProfileResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeasonResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/SeasonResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeasonResource\\:\\:\\$publishedAndStreamableVideos\\.$#"
+			count: 1
+			path: app/Http/Resources/SeasonResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeasonResource\\:\\:\\$season\\.$#"
+			count: 1
+			path: app/Http/Resources/SeasonResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeasonResource\\:\\:\\$title\\.$#"
+			count: 1
+			path: app/Http/Resources/SeasonResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\SeasonResource\\:\\:getFirstMediaUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/SeasonResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$characters\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$description\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$genres\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$publishedAndStreamableVideos\\.$#"
+			count: 2
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$season\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$short_description\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$tags\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:\\$title\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:getFirstMediaUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\SeriesResource\\:\\:getPublishedSeasons\\(\\)\\.$#"
+			count: 2
+			path: app/Http/Resources/SeriesResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\SubscriptionResource\\:\\:\\$plan\\.$#"
+			count: 3
+			path: app/Http/Resources/SubscriptionResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\UserResource\\:\\:\\$email\\.$#"
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\UserResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\UserResource\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\UserResource\\:\\:getActiveProfile\\(\\)\\.$#"
+			count: 2
+			path: app/Http/Resources/UserResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\VideoResource\\:\\:\\$description\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\VideoResource\\:\\:\\$id\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\VideoResource\\:\\:\\$is_free\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\VideoResource\\:\\:\\$short_description\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Http\\\\Resources\\\\VideoResource\\:\\:\\$title\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\VideoResource\\:\\:canWatchVideo\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\VideoResource\\:\\:getFallBackUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\VideoResource\\:\\:getFirstMediaUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Call to an undefined method App\\\\Http\\\\Resources\\\\VideoResource\\:\\:getVideoUrl\\(\\)\\.$#"
+			count: 1
+			path: app/Http/Resources/VideoResource.php
+
+		-
+			message: "#^Binary operation \"\\*\" between string and 60 results in an error\\.$#"
+			count: 1
+			path: app/Imports/DataImport.php
+
+		-
+			message: "#^Parameter \\#1 \\$ids of method Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsToMany\\<App\\\\Models\\\\Character\\>\\:\\:syncWithoutDetaching\\(\\) expects array\\|Illuminate\\\\Database\\\\Eloquent\\\\Model\\|Illuminate\\\\Support\\\\Collection, int given\\.$#"
+			count: 1
+			path: app/Imports/DataImport.php
+
+		-
+			message: "#^Parameter \\#1 \\$ids of method Illuminate\\\\Database\\\\Eloquent\\\\Relations\\\\BelongsToMany\\<App\\\\Models\\\\Genre\\>\\:\\:syncWithoutDetaching\\(\\) expects array\\|Illuminate\\\\Database\\\\Eloquent\\\\Model\\|Illuminate\\\\Support\\\\Collection, int given\\.$#"
+			count: 1
+			path: app/Imports/DataImport.php
+
+		-
+			message: "#^Variable \\$video might not be defined\\.$#"
+			count: 3
+			path: app/Imports/DataImport.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Characters\\\\CharacterCreateOrUpdate\\:\\:\\$form\\.$#"
+			count: 4
+			path: app/Livewire/Characters/CharacterCreateOrUpdate.php
+
+		-
+			message: "#^Parameter \\#1 \\$view of function view expects view\\-string\\|null, string given\\.$#"
+			count: 1
+			path: app/Livewire/Characters/CharacterShow.php
+
+		-
+			message: "#^Access to an undefined property Razorpay\\\\Api\\\\Api\\:\\:\\$subscription\\.$#"
+			count: 1
+			path: app/Livewire/Customer/BuySubscription.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Genres\\\\GenreCreateOrUpdate\\:\\:\\$form\\.$#"
+			count: 3
+			path: app/Livewire/Genres/GenreCreateOrUpdate.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Languages\\\\LanguageCreateOrUpdate\\:\\:\\$form\\.$#"
+			count: 3
+			path: app/Livewire/Languages/LanguageCreateOrUpdate.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Language\\:\\:\\$is_active\\.$#"
+			count: 1
+			path: app/Livewire/Languages/LanguageCreateOrUpdate.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Plans\\\\PlanCreate\\:\\:\\$form\\.$#"
+			count: 5
+			path: app/Livewire/Plans/PlanCreate.php
+
+		-
+			message: "#^Call to an undefined static method App\\\\Models\\\\Plan\\:\\:createRazorpayPlan\\(\\)\\.$#"
+			count: 1
+			path: app/Livewire/Plans/PlanCreate.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Plans\\\\PlanCreateOrUpdate\\:\\:\\$form\\.$#"
+			count: 5
+			path: app/Livewire/Plans/PlanCreateOrUpdate.php
+
+		-
+			message: "#^Access to an undefined property Razorpay\\\\Api\\\\Api\\:\\:\\$plan\\.$#"
+			count: 1
+			path: app/Livewire/Plans/PlanCreateOrUpdate.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Plans\\\\PlanEdit\\:\\:\\$form\\.$#"
+			count: 2
+			path: app/Livewire/Plans/PlanEdit.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Plan\\:\\:\\$description\\.$#"
+			count: 1
+			path: app/Livewire/Plans/PlanEdit.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Plan\\:\\:\\$name\\.$#"
+			count: 1
+			path: app/Livewire/Plans/PlanEdit.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Series\\\\SeriesCreateOrUpdate\\:\\:\\$form\\.$#"
+			count: 5
+			path: app/Livewire/Series/SeriesCreateOrUpdate.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 1
+			path: app/Livewire/Series/SeriesDatatable.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Series\\\\SeriesEdit\\:\\:\\$form\\.$#"
+			count: 3
+			path: app/Livewire/Series/SeriesEdit.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 2
+			path: app/Livewire/Series/SeriesShow.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Users\\\\InviteAdminMembers\\:\\:\\$form\\.$#"
+			count: 2
+			path: app/Livewire/Users/InviteAdminMembers.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Users\\\\RegisterAdminMember\\:\\:\\$form\\.$#"
+			count: 3
+			path: app/Livewire/Users/RegisterAdminMember.php
+
+		-
+			message: "#^Using nullsafe property access on non\\-nullable type App\\\\Models\\\\PendingUser\\. Use \\-\\> instead\\.$#"
+			count: 1
+			path: app/Livewire/Users/RegisterAdminMember.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Livewire\\\\Videos\\\\VideoCreateOrUpdate\\:\\:\\$form\\.$#"
+			count: 5
+			path: app/Livewire/Videos/VideoCreateOrUpdate.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 1
+			path: app/Livewire/Videos/VideoCreateOrUpdate.php
+
+		-
+			message: "#^Called 'pluck' on Laravel collection, but could have been retrieved as a query\\.$#"
+			count: 2
+			path: app/Livewire/Videos/VideosDatatable.php
+
+		-
+			message: "#^Using nullsafe property access on non\\-nullable type App\\\\Models\\\\Video\\. Use \\-\\> instead\\.$#"
+			count: 1
+			path: app/Livewire/Videos/VideosDatatable.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Activity\\:\\:\\$event\\.$#"
+			count: 1
+			path: app/Models/Activity.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$name\\.$#"
+			count: 2
+			path: app/Models/Activity.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$series\\.$#"
+			count: 2
+			path: app/Models/Activity.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$title\\.$#"
+			count: 3
+			path: app/Models/Activity.php
+
+		-
+			message: "#^Using nullsafe property access on non\\-nullable type Illuminate\\\\Database\\\\Eloquent\\\\Model\\. Use \\-\\> instead\\.$#"
+			count: 7
+			path: app/Models/Activity.php
+
+		-
+			message: "#^Access to an undefined property Razorpay\\\\Api\\\\Api\\:\\:\\$plan\\.$#"
+			count: 2
+			path: app/Models/Plan.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Series\\:\\:\\$parent_id\\.$#"
+			count: 1
+			path: app/Models/Series.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$childrenAndSelf\\.$#"
+			count: 1
+			path: app/Models/Series.php
+
+		-
+			message: "#^Access to an undefined property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$publishedAndStreamableVideos\\.$#"
+			count: 1
+			path: app/Models/Series.php
+
+		-
+			message: "#^Call to an undefined method Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:sortBy\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Series.php
+
+		-
+			message: "#^Call to an undefined method Spatie\\\\Image\\\\Manipulations\\:\\:performOnCollections\\(\\)\\.$#"
+			count: 1
+			path: app/Models/Series.php
+
+		-
+			message: "#^Left side of && is always true\\.$#"
+			count: 2
+			path: app/Models/Series.php
+
+		-
+			message: "#^Access to an undefined property Razorpay\\\\Api\\\\Api\\:\\:\\$subscription\\.$#"
+			count: 6
+			path: app/Models/Subscription.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\User\\:\\:\\$active_profile_id\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\User\\:\\:\\$casts is not covariant with PHPDoc type array\\<string, string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$casts\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^PHPDoc type array of property App\\\\Models\\\\User\\:\\:\\$hidden is not covariant with PHPDoc type array\\<int, string\\> of overridden property Illuminate\\\\Database\\\\Eloquent\\\\Model\\:\\:\\$hidden\\.$#"
+			count: 1
+			path: app/Models/User.php
+
+		-
+			message: "#^Access to an undefined property App\\\\Models\\\\Video\\:\\:\\$is_free\\.$#"
+			count: 1
+			path: app/Models/Video.php
