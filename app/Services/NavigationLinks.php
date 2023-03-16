@@ -78,6 +78,15 @@ class NavigationLinks
                     'isVisible' => true,
                 ],
             ],
+            'More' => [
+                [
+                    'name' => 'Admin Links',
+                    'icon' => 'heroicon-o-plus-circle',
+                    'url' => route('more-links'),
+                    'active' => Route::currentRouteName() === 'more-links',
+                    'isVisible' => true,
+                ],
+            ],
             'Logs' => [
                 [
                     'name' => 'Watch History',
